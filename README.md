@@ -1,4 +1,10 @@
 # Prueba
+## Ejecución:
+
+> npm install
+
+> npm run view
+
 ## Ejercicio 1
 > GET : http://localhost:3000/api/repositories/getRepositories
 ### Ejercicio 2
