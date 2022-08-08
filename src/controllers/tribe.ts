@@ -30,9 +30,6 @@ class TribeController {
                   value: 'name'
                 }
               ];
-            // res.send(_adquirencias);
-            // res.set('Content-Type', 'application/octet-stream');
-            // res.send(_adquirencias);
             const json2csv = new Parser({fields});
             const csv = json2csv.parse(_adquirencias);
             res.header('Content-Type', 'text/csv');

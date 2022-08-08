@@ -1,10 +1,10 @@
 import sequelize from './connection';
 import DataTypes from 'sequelize';
 /**
- * Relación a la tabla bancos
+ * Relación a la tabla tribe
  * @param {*} sequelize Define relación de las entidades 
  * @param {*} DataTypes Define tipos de datos
- * @returns {*} Modelo correspondiente a organization
+ * @returns {*} Modelo correspondiente a tribe
  */
 
 const Tribe = sequelize.define('tribe', {

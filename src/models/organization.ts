@@ -2,7 +2,7 @@ import sequelize from './connection';
 import DataTypes from 'sequelize';
 
 /**
- * Relación a la tabla bancos
+ * Relación a la tabla organization
  * @param {*} sequelize Define relación de las entidades 
  * @param {*} DataTypes Define tipos de datos
  * @returns {*} Modelo correspondiente a organization

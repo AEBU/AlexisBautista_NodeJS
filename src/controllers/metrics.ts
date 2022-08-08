@@ -1,17 +1,12 @@
 import { Request, Response } from 'express';
 import metricsModel from '../models/metrics';
-// import tribeModel from '../models/tribe';
-// import repositoryModel from '../models/repository';
 import connection from '../models/connection'
 import sequelize from 'sequelize';
 
-// import metricService from '../services/metricService';
 
 class MetricController {
     public getMetricsRepository(_req: Request, res: Response) {
-        // metricService(_req.params);
         console.log('Paras', _req.params)
-        // metrics repository tribu
         const metricsRep = `
             SELECT rp.id_repository, rp.name , tr.name as organization, tr.status,
             mr.coverage, mr.bugs, mr.vulverabilities, mr.hotspot, mr.code_smells,

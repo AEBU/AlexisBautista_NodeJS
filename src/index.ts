@@ -25,26 +25,6 @@ app.use('/api/organization', organizationRoutes);
 app.use('/api/tribe',tribeRoutes );
 app.use('/api/metric', metricRoutes );
 
-
-
-//
-// EXECUTE QUERY
-//
-// console.log('Esta 1')
-// const data = fs.readFileSync('C:\\Users\\Kruger\\Documents\\AlexisBautista_rep\\src\\util\\util_create_table.txt', {encoding:'utf8', flag:'r'});
-// console.log('da', data)
-
-
-
-// connectionPool.query(createTables, (_err: any, _res: any) => {
-// console.log('Esta 2')
-//     console.log(_err, _res)
-//     connectionPool.end()
-// })
-console.log('Esta 3')
-
-
-
 app.listen(PORT, ()=> {
     console.log(`Servidor corriendo en puerto ${PORT}`)
 });

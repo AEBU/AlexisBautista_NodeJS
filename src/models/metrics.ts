@@ -2,10 +2,10 @@ import sequelize from './connection';
 import DataTypes from 'sequelize';
 
 /**
- * Relación a la tabla bancos
+ * Relación a la tabla metrics
  * @param {*} sequelize Define relación de las entidades 
  * @param {*} DataTypes Define tipos de datos
- * @returns {*} Modelo correspondiente a organization
+ * @returns {*} Modelo correspondiente a metrics
  */
 export default sequelize.define('metrics', {
         idRepository: {
